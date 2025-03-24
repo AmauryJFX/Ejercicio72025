@@ -43,6 +43,7 @@ public class Inicio extends Figura{
         Ejecutable ejecutable = null;
         Historiales historiales = null;
         historiales = Historial.getInstance( );
+        System.out.println("Hola Amaury");
         while( flag )
         {
             ejecutable = null;
